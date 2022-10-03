@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
+  webAppName: 'https://contoso-sampleapp.azurewebsites.net'
+  serviceConnection: 'DemoSetup'
+  azureSubscriptionId: '7c71b563-0dc0-4bc0-bcf6-06f8f0516c7a'
+  loadTestResource: 'nometrics'
+  loadTestResourceGroup: 'sachidsample-rg'
   location: 'EAST US'
 
 
