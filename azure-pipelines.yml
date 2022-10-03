@@ -11,7 +11,7 @@ pool:
 
 variables:
   webAppName: 'contoso-sampleapp'
-  serviceConnection: 'DemoSetup'
+  serviceConnection: 'DemoSet'
   azureSubscriptionId: '7c71b563-0dc0-4bc0-bcf6-06f8f0516c7a'
   loadTestResource: 'nometrics'
   loadTestResourceGroup: 'sachidsample-rg'
