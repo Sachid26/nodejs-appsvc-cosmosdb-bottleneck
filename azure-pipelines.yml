@@ -153,10 +153,13 @@ stages:
             {
             "name": "webapp",
             "value": "$(webAppName).azurewebsites.net"
-            },
+            }
+          ]
+        secrets: |
+          [
             {
             "name": "appToken",
-            "value": $(appToken)
+            "value": "$(appToken)"
             }
           ]
           
