@@ -154,6 +154,10 @@ stages:
             "name": "webapp",
             "value": "$(webAppName).azurewebsites.net"
             }
+            {
+            "name": "appToken",
+            "value": $(appToken)
+            }
           ]
           
     - publish: $(System.DefaultWorkingDirectory)/loadTest
