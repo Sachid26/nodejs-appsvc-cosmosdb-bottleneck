@@ -4,8 +4,8 @@ testPlan: SampleApp_Secrets.jmx
 description: 'SampleApp Test Run'
 engineInstances: 1
 failureCriteria:
-  - Get: percentage(error) > 1 
-  - Get: p90(response_time_ms) > 1000 
+  - get: percentage(error) > 1 
+  - get: p90(response_time_ms) > 1000 
   - add: percentage(error) > 1 
   - add: p90(response_time_ms) > 1000 
   - lasttimestamp: percentage(error) > 1
