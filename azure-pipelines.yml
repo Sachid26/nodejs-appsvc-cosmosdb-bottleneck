@@ -159,7 +159,7 @@ stages:
           [
             {
             "name": "appToken",
-            "value": "$(appToken)"
+            "value": $(appToken)
             }
           ]
           
