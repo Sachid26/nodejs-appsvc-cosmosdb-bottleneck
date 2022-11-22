@@ -5,8 +5,5 @@ description: 'SampleApp Test Run'
 engineInstances: 1
 failureCriteria:
   - get: percentage(error) > 1 
-  - get: p90(response_time_ms) > 1000 
   - add: percentage(error) > 1 
-  - add: p90(response_time_ms) > 1000 
   - lasttimestamp: percentage(error) > 1
-  - lasttimestamp: p90(response_time_ms) > 1000 
