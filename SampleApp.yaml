@@ -7,3 +7,4 @@ failureCriteria:
   - get: percentage(error) > 1 
   - add: percentage(error) > 1 
   - lasttimestamp: percentage(error) > 1
+  - avg(response_time_ms) >100 
